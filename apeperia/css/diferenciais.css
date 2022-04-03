@@ -1,0 +1,27 @@
+.diferenciais {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 2.5rem 4.5rem;
+
+}
+
+.diferenciais__titulo {
+    color: #4F4C4C;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.diferenciais__texto {
+    line-height: normal;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px){
+    .diferenciais {
+        max-width: 300px;
+        margin: 5.5rem auto 2rem auto;
+    }
+}

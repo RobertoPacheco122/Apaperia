@@ -1,0 +1,125 @@
+.container__planos {
+    padding: 0 9%;
+}
+
+.planos {
+    background-color: #F7F4F4;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.planos__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planos__titulo {
+    color: #4F4C4C;
+    font-family: 'Montserrat', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.planos__cartao {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    box-shadow: 0 0 1.5rem #DFE3E5;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding: 0 12%;
+}
+
+.planos__cartao-titulo {
+    align-self: center;
+    border-bottom: 1px solid #DFE3E5;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.planos__cartao-valor {
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.planos__cartao-texto {
+    font-size: 1.1rem;
+    line-height: normal;
+}
+
+.planos__cartao-botao {
+    align-self: center;
+    border: 1px solid #DFE3E5;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.planos__cartao-start .planos__cartao-titulo, .planos__cartao-start .planos__cartao-valor, .planos__cartao-start .planos__cartao-botao{
+    color: #56CCF2;
+}
+
+.planos__cartao-start .planos__cartao-botao {
+    border-color: #56CCF2;
+}
+
+.planos__cartao-start .planos__cartao-botao:hover {
+    transition: 0.5s;
+    background-color: #56CCF2;
+    color: #FFF;
+}
+
+.planos__cartao-mega .planos__cartao-titulo, .planos__cartao-mega .planos__cartao-valor, .planos__cartao-mega .planos__cartao-botao{
+    color: #E33B3B;
+}
+
+.planos__cartao-mega .planos__cartao-botao {
+    border-color: #E33B3B;
+}
+
+.planos__cartao-mega .planos__cartao-botao:hover {
+    transition: 0.5s;
+    background-color: #E33B3B;
+    color: #FFF;
+}
+
+.planos__cartao-ultra .planos__cartao-titulo, .planos__cartao-ultra .planos__cartao-valor, .planos__cartao-ultra .planos__cartao-botao{
+    color: #B04CD9;
+}
+
+.planos__cartao-ultra .planos__cartao-botao {
+    border-color: #B04CD9;
+}
+
+.planos__cartao-ultra .planos__cartao-botao:hover {
+    transition: 0.5s;
+    background-color: #B04CD9;
+    color: #FFF;
+}
+
+@media screen and (min-width: 768px){
+    .planos__cartao {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    
+}

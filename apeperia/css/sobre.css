@@ -1,0 +1,29 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.sobre__titulo {
+    color: #4F4C4C;
+    font-family: 'Montserrat', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sobre__texto {
+    font-size: 1.1rem;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+
+.sobre__logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}

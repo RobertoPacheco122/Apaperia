@@ -1,0 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding: 0 6%;
+}
+
+.botao {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1.25rem;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+

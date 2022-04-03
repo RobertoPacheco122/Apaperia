@@ -1,0 +1,48 @@
+.destaques {
+    background-color: #DFE3E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.destaques__titulo {
+    color: #4F4C4C;
+    font-family: 'Montserrat', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.destaques__imagem {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.destaques__texto {
+    font-size: 1.2rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+    margin-top: .7rem;
+}
+
+.destaques__botao {
+    border: 1px solid #B72E2E;
+    color: #B72E2E;
+    margin-bottom: 2rem;
+    align-self: center;
+}
+
+.destaques__botao:hover {
+    transition: 0.5s;
+    background-color: #B72E2E;
+    color: #FFF;
+}
+
+@media screen and (min-width: 768px) {
+    .destaques__texto {
+        text-align: center;
+    }
+}

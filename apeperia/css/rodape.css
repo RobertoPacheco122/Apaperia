@@ -1,0 +1,40 @@
+.rodape {
+    align-items: center;
+    background-color: #333333;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: .75rem 0 3rem 0;
+    width: 100%;
+}
+
+.rodape__logo-apaperia {
+    margin-bottom: 2.5rem;
+}
+
+.rodape__logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rodape__logo-facebook, .rodape__logo-twitter, .rodape__logo-instagram {
+    margin: 0 1rem;
+}
+
+.rodape__navegacao {
+    text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rodape__link{
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 2rem .7rem 0 .7rem;
+}
+
