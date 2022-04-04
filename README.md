@@ -1,12 +1,14 @@
 # projeto-apaperia
 Desenvolvimento de um site web com design responsivo
+![Apaperia2](https://user-images.githubusercontent.com/83142980/161568689-55810555-beec-45ad-ba37-cb00e77b8212.png)
 
-![Apaperia](https://user-images.githubusercontent.com/83142980/161563920-2ae0bada-b0ae-4076-ae11-de4144a36c1e.png) ![apaperia-phone](https://user-images.githubusercontent.com/83142980/161566393-a9b384ff-bdc8-4d5c-8733-f90439013a77.png)
 
-### Ferramentas
+### Ferramentas utilizadas
 
--HTML
--CSS
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
 
 ### Iniciando o projeto
 
