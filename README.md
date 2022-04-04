@@ -1,8 +1,8 @@
 # projeto-apaperia
-Desenvolvimento de um site web com design responsivo utilizando HTML e CSS
+Desenvolvimento de um site web com design responsivo
 
-Basta abrir o arquivo index.html no seu navegador ou utilizar o live server :)
+![Apaperia](https://user-images.githubusercontent.com/83142980/161563920-2ae0bada-b0ae-4076-ae11-de4144a36c1e.png) ![apaperia-phone](https://user-images.githubusercontent.com/83142980/161566393-a9b384ff-bdc8-4d5c-8733-f90439013a77.png)
 
-OBS! Esse layout não foi criado por mim. Ele está disponível na web.
+#Features
 
-![Apaperia](https://user-images.githubusercontent.com/83142980/161563920-2ae0bada-b0ae-4076-ae11-de4144a36c1e.png)
+-Foram utilizados apenas HTML e CSS
